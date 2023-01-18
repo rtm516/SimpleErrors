@@ -12,7 +12,7 @@ LABEL traefik.enable=true
 
 LABEL traefik.http.routers.error-router.rule=HostRegexp(`{host:.+}`)
 LABEL traefik.http.routers.error-router.priority=1
-LABEL traefik.http.routers.error-router.entrypoints=webinsecure
+LABEL traefik.http.routers.error-router.entrypoints=https
 LABEL traefik.http.routers.error-router.middlewares=error-pages-middleware
   
 LABEL traefik.http.middlewares.error-pages-middleware.errors.status=400-599
