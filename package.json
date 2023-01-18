@@ -1,0 +1,26 @@
+{
+  "name": "simple-errors",
+  "version": "1.0.0",
+  "description": "A simple error page handler for traefik",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "rtm516",
+  "license": "GPL-3.0-or-later",
+  "dependencies": {
+    "ejs": "^3.1.8",
+    "express": "^4.18.2",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rtm516/simple-errors.git"
+  },
+  "bugs": {
+    "url": "https://github.com/rtm516/simple-errors/issues"
+  },
+  "homepage": "https://github.com/rtm516/simple-errors#readme"
+}
