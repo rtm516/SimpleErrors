@@ -5,6 +5,7 @@ const app = express()
 const port = 3000
 
 app.set('view engine', 'ejs')
+app.set('trust proxy', true)
 app.use(morgan('combined'))
 
 const { STATUS_CODES } = require('http')
